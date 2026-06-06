@@ -5,16 +5,12 @@ haein2 = 3
 haein3 = "cute"
 haein4 = (4 - 5) * (5 + 4) / 2
 
-# 해인4를 프린트 하는 함수
-# print((4 - 5) * (5 + 4) / 2)
-
 # exercise 1
 # Print your age to the console.
 print(25)
 
 # exercise 2
 # Calculate and print the number of days, weeks, and months in 27 years. Don’t worry about leap years!
-# x can be
 def get_days_weeks_months(years):
     days = 365 * years
     weeks = 52 * years
@@ -25,7 +21,6 @@ print('days:', get_days_weeks_months(27)[0])
 print('weeks:', get_days_weeks_months(27)[1])
 print("months:", get_days_weeks_months(27)[2])
 
-
 # exercise 3
 # Calculate and print the area of a circle with a radius of 5 units. You can be as accurate as you like with the value of pi.
 def get_area_of_circle(radius):
@@ -33,4 +28,3 @@ def get_area_of_circle(radius):
 
 print(get_area_of_circle(5))
 
-haein
