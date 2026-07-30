@@ -6,19 +6,6 @@ My day-by-day practice going through [Teclado's 30 Days of Python](https://tecla
 
 Each day introduces new concepts along with practice exercises and occasional larger projects. This repo holds my code, notes, and exercise solutions as I work through the course.
 
-## Structure
-
-\```
-30-days-of-python/
-├── day01/
-├── day02/
-├── day03/
-├── ...
-└── day30/
-\```
-
-Each `dayXX/` folder contains the exercises/scripts for that day.
-
 ## Progress
 
 - [x] Day 1
