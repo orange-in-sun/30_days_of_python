@@ -85,11 +85,11 @@ for i in range(number):
 
 average = 0
 for a in movies:
-    average = average + a[1] / len(movies)+number
+    average = average + a[1] / len(movies) # FIXED: removed "+ number" we would've been adding movie count every iteration len(movies) should be number of movies in the movies list already
 
 expensive_movie = []
 for b in movies:
     if b[1] > average:
-        print(f"{b[0]}, {b[1]-average}")
+        print(f"{b[0]}, {b[1] - average}") # NIT: fixed spacing
         expensive_movie.append(b[0])
 print(len(expensive_movie))
